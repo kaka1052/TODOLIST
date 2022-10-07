@@ -1,0 +1,68 @@
+.weather {
+  font-style: italic;
+  text-align: right;
+}
+
+.time {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.hello {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
+
+input {
+  background: #ffffff00;
+  border-color: #ffffff;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.btn_none {
+  border-width: 0;
+  background: none;
+}
+
+body {
+  color: white;
+  background-color: beige;
+}
+
+.quote {
+  font-style: italic;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-10%, 0%);
+}
+
+.center_section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
